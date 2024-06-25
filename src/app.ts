@@ -1,5 +1,8 @@
 class Vehicle {
     status = "stopped";
+    make:string
+    model:string
+    wheels:string
   
     constructor(make, model, wheels) {
       this.make = make;
